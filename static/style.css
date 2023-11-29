@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main>div {
+    width: 70%;
+}
+
+article {
+    border: solid;
+}
+
+article>div {
+    padding: none;
+    display: flex;
+    border-bottom: solid;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+}
+
+article>div>p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+time{
+    font-size: 16px;
+}
